@@ -1,0 +1,149 @@
+@mixin b-radius {
+    border-radius: 7px;
+}
+
+@mixin animation-slow {
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+@mixin no-mar-pad {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@mixin flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin flex-inline {
+    display: -webkit-box-inline;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+@mixin flex-center {
+    @include flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin flex-inline-center {
+    @include flex-inline;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+@mixin flex-middle {
+    @include flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@mixin flex-center-middle {
+    @include flex-center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+@mixin flex-center-space {
+    @include flex-center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@mixin col-1 {
+    flex: 0 0 auto;
+    width: 8.3333333333%
+}
+
+@mixin col-2 {
+    flex: 0 0 auto;
+    width: 16.6666666667%
+}
+
+@mixin col-3 {
+    flex: 0 0 auto;
+    width: 25%
+}
+
+@mixin col-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%
+}
+
+@mixin col-5 {
+    flex: 0 0 auto;
+    width: 41.6666666667%
+}
+
+@mixin col-6 {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+@mixin col-7 {
+    flex: 0 0 auto;
+    width: 58.3333333333%
+}
+
+@mixin col-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%
+}
+
+@mixin col-9 {
+    flex: 0 0 auto;
+    width: 75%
+}
+
+@mixin col-10 {
+    flex: 0 0 auto;
+    width: 83.3333333333%
+}
+
+@mixin col-11 {
+    flex: 0 0 auto;
+    width: 91.6666666667%
+}
+
+@mixin col-12 {
+    flex: 0 0 auto;
+    width: 100%
+}
+
+@mixin py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@mixin py-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@mixin py-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@mixin py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@mixin py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

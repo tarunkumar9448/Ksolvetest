@@ -1,0 +1,14 @@
+{
+    "name": "ksolve-test",
+    "version": "1.0.0",
+    "description": "Installing SCSS for test",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass scss/main.scss css/style.css -w"
+    },
+    "author": "Tarun",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^5.0.0"
+    }
+}
